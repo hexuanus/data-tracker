@@ -6,11 +6,11 @@
 
 ###Native solution
 
-Please see diagram ![Data Tracker - Native](https://github.com/hexuanus/data-tracker/blob/main/img/Data%20Tracker%20-%20Native.png)
+Architecture Diagram ![Data Tracker - Native](https://github.com/hexuanus/data-tracker/blob/main/img/Data%20Tracker%20-%20Native.png)
 
 ###M3 solution
 
-please see diagram Data Tracker - M3.
+Architecture Diagram ![Data Tracker - M3](https://github.com/hexuanus/data-tracker/blob/main/img/Data%20Tracker%20-%20M3.png)
 
 The [M3](https://m3db.io/) platform aims to provide a turnkey, scalable, and configurable multi-tenant store for Prometheus, Graphite and other standard metrics schemas.
 For M3 metrics, engineers can use M3 client [Tally](https://github.com/uber-java/tally) to define a metric with multiple metric tags in the application code.
