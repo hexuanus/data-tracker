@@ -1,11 +1,13 @@
+**Note**: 
+**The current application is not runnable and unit test needs to be added**
 
-#Scalability
+# Scalability
 
-###Native solution
+### Native solution
 
 Architecture Diagram ![Data Tracker - Native](https://github.com/hexuanus/data-tracker/blob/main/img/Data%20Tracker%20-%20Native.png)
 
-###M3 solution
+### M3 solution
 
 Architecture Diagram ![Data Tracker - M3](https://github.com/hexuanus/data-tracker/blob/main/img/Data%20Tracker%20-%20M3.png)
 
@@ -17,31 +19,31 @@ e.g. volume metrics: `fetch name:volume crypto:BTC time_window:1m`  which will r
 The M3 query engine is provided to translate the M3QL from Grafana UI and search data points in the M3 database.
 
 
-#Testing
+# Testing
 
-###Unit Test
+### Unit Test
 
-###Integration Test
+### Integration Test
 
 Send an end to end request to the service endpoint and verify results. These requests can be catched from real traffic and stored in storage and be replayed at any time at staging/pre-production environments.
 
-###Load Test
+### Load Test
 
 Measure service performance or how many requests the service can handle
 
-###Black-box testing
+### Black-box testing
 
 A black box service sends a list of integration test requests against a production endpoint per minute and verifies the result. This is part of a health check besides heartbeat ping.
 
-###Canary environment
+### Canary environment
 
 Roll out the new binary to a pre production environment where fork the production traffic and verify metrics between latest and last known good binary.
 
-###Monitoring and alerting
+### Monitoring and alerting
 
 During gradual rollout to production, any application and system level alerts will trigger the deployment auto rollback
 
 
-#Feature request
+# Feature request
 
 This is explained in native solution diagrams and M3 solution diagrams
