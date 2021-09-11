@@ -6,7 +6,7 @@
 
 ###Native solution
 
-Please see diagram Data Tracker - Native
+Please see diagram ![Data Tracker - Native](https://github.com/hexuanus/data-tracker/blob/main/img/Data%20Tracker%20-%20Native.png)
 
 ###M3 solution
 
