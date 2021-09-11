@@ -1,6 +1,3 @@
-**Note**: 
-**The current application is not runnable and unit test needs to be added**
-
 
 #Scalability
 
